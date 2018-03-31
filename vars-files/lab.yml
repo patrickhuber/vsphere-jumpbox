@@ -1,0 +1,11 @@
+vcenter_ip: 192.168.1.110
+network_name: "VM Network"
+vcenter_dc: homelab
+vcenter_templates: bosh_prod/temmplates
+vcenter_ds: DAS
+vcenter_disks: bosh_prod/disks
+vcenter_vms: bosh_prod/vms
+vcenter_cluster: homelab_cl1
+internal_ip: 192.168.3.10
+internal_cidr: 192.168.0.0/16
+internal_gw: 192.168.1.1
