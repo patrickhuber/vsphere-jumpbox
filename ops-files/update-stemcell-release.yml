@@ -1,0 +1,15 @@
+---
+# replace cpi version
+- type: replace
+  path: /0/value 
+  value:
+    name: bosh-vsphere-cpi
+    url: https://bosh.io/d/github.com/cloudfoundry-incubator/bosh-vsphere-cpi-release?v=47
+    sha1: e17bac89169b158e3f8a45244624c635ecadd955 
+
+# replace stemcell version
+- type: replace
+  path: /1/value
+  value: 
+    url: https://bosh.io/d/stemcells/bosh-vsphere-esxi-centos-7-go_agent?v=3541.10
+    sha1: cd0f0ecaf94c1aaa76488c4532450a2d7dd500e7
