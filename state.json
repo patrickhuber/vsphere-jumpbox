@@ -1,6 +1,7 @@
 {
     "director_id": "7a245e14-36a9-44ae-63ad-ffc6ccfc2ead",
     "installation_id": "88b953be-135f-4f37-4c25-0dbc4845b884",
+<<<<<<< HEAD
     "current_vm_cid": "vm-81cbf998-8fed-4d3b-bd97-31d36f6f83c3",
     "current_stemcell_id": "96f526e8-22d7-44b2-7d71-04c6e184bb56",
     "current_disk_id": "",
@@ -9,6 +10,13 @@
         "cc41a939-4095-4829-5917-dc244dc989a1"
     ],
     "current_manifest_sha": "447d8d8bf89792140178f0c6ad01366731786900b04c1b4c823157c1834f049ca46cca24eea9ff210df7ffab639b2c5cb3eabfbbc170483bff7b832cd2f4e2d8",
+=======
+    "current_vm_cid": "",
+    "current_stemcell_id": "",
+    "current_disk_id": "",
+    "current_release_ids": [],
+    "current_manifest_sha": "",
+>>>>>>> adds pre-start-phase script
     "disks": null,
     "stemcells": [
         {
@@ -18,6 +26,7 @@
             "cid": "sc-6fb611ab-d644-485e-89be-954317bf89d2"
         }
     ],
+<<<<<<< HEAD
     "releases": [
         {
             "id": "5b3b87e8-3078-4a9f-5891-a2e9b3b8b436",
@@ -30,4 +39,7 @@
             "version": "47"
         }
     ]
+=======
+    "releases": []
+>>>>>>> adds pre-start-phase script
 }
